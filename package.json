@@ -1,0 +1,29 @@
+{
+  "name": "node-s3-backup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "pkg": "pkg sync-s3.js --targets node8-win-x64",
+    "start": "node sync-s3",
+    "force-sync": "node sync-s3 --force",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "2.581.0",
+    "dotenv": "8.2.0",
+    "fs-extra": "8.1.0",
+    "inquirer": "7.0.0",
+    "inquirer-directory": "2.2.0"
+  },
+  "devDependencies": {
+    "pkg": "4.4.0"
+  },
+  "description": ""
+}

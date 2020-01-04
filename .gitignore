@@ -1,0 +1,14 @@
+# test folder
+test
+
+# Node Modules
+node_modules
+
+# Incase of Electron
+*.exe
+
+# ENV
+.env
+
+# ds store
+.DS_Store
